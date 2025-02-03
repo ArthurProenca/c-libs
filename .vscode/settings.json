@@ -6,6 +6,7 @@
         "*.rmd": "markdown",
         "*.y": "bison",
         "utils.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "time.h": "c"
     } // Prevents VS Code from auto-detecting different indentation styles
 }
