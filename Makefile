@@ -4,7 +4,7 @@ CFLAGS ?= -Wall -Wextra -Werror
 
 # Target executable
 TARGET = c-libs
-SRCS = main.c
+SRCS = src/main.c
 OBJS = $(SRCS:.c=.o)
 
 # Declare phony targets

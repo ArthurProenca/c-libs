@@ -6,6 +6,7 @@ struct container
     char content[10];
 } container;
 
-int main(int argc, char *argv[])
+int main()
 {
+    
 }
