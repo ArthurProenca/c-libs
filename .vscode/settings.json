@@ -1,5 +1,11 @@
 {
     "editor.tabSize": 4,
     "editor.insertSpaces": true,  // Ensures spaces instead of tab characters
-    "editor.detectIndentation": false // Prevents VS Code from auto-detecting different indentation styles
+    "editor.detectIndentation": false,
+    "files.associations": {
+        "*.rmd": "markdown",
+        "*.y": "bison",
+        "utils.h": "c",
+        "stdio.h": "c"
+    } // Prevents VS Code from auto-detecting different indentation styles
 }

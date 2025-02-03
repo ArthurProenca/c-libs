@@ -1,12 +1,15 @@
 #include <stdio.h>
-
-struct container
-{
-    int id;
-    char content[10];
-} container;
+#include <stdlib.h>
+#include "utils/utils.h"
+#include "sorting/sort.h"
 
 int main()
 {
-    
+    int *arr = generateRandomArrayOfNumbers(DEFAULT_ARR_SIZE);
+
+    showArray(arr);
+
+    bubbleSort(arr);
+
+    showArray(arr);
 }
